@@ -1,7 +1,7 @@
 # Comparative Image Filtering
+
 ## Without Noise
 This is a part of my minor project in which I applied the following filters to the MNIST dataset and analyzed their overall accuracies.
-
 1. Mean Filtering
 2. Median Filtering
 3. Bilateral Filtering
@@ -11,22 +11,17 @@ This is a part of my minor project in which I applied the following filters to t
 7. Box Blur Filtering
 8. Laplacian/Mexican Hat Filtering
 9. Canny Edge Filtering
-
+### Results
+Mean filter performed the best with 99.2% accuracy whereas Laplacian filter performed the worst with an accuracy of almost 2%
 ## With Noise
-To analyze the performance of the filters better, I added the following types of noise and calculated the 
+To analyze the performance of the filters better and to introduce novelty into the work, I added the following types of noise and calculated the PSNR and NMSE scores for each filter:
+1. Salt and Pepper
+2. Gaussian
+3. Poisson
+4. Speckle
+### Results
+This gave us insight into the strengths and weaknesses of every filter and provided us with the clarity about which filters to use in what scenarios.
 
-## Features
 
-- Application of various image filtering techniques.
-- Training a CNN on filtered images for classification.
-- Evaluation of classification accuracy.
-- Visualizing original and filtered images.
 
-## Usage
-
-1. Install the required Python libraries using `pip install -r requirements.txt`.
-
-2. Run the Jupyter Notebook to preprocess and classify MNIST images using different filters.
-
-3. Observe the classification accuracy and visualize original and filtered images.
 
