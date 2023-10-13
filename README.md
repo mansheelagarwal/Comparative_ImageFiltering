@@ -1,5 +1,5 @@
 # Comparative Image Filtering
-
+![MnistExamplesModified](https://github.com/mansheelagarwal/Comparative_ImageFiltering/assets/76102724/38fafd7b-b625-4916-88ad-7ca5b17ae56f)
 ## Without Noise
 This is a part of my minor project in which I applied the following filters to the MNIST dataset and analyzed their overall accuracies.
 1. Mean Filtering
