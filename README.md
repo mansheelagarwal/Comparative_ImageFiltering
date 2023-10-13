@@ -1,6 +1,6 @@
-# Comparative_ImageFiltering
-
-This project demonstrates the application of various image filtering techniques to preprocess the MNIST dataset and improve image classification accuracy using a Convolutional Neural Network (CNN) model. The project includes the following image filtering techniques:
+# Comparative Image Filtering
+## Without Noise
+This is a part of my minor project in which I applied the following filters to the MNIST dataset and analyzed their overall accuracies.
 
 1. Mean Filtering
 2. Median Filtering
@@ -12,9 +12,8 @@ This project demonstrates the application of various image filtering techniques 
 8. Laplacian/Mexican Hat Filtering
 9. Canny Edge Filtering
 
-## Purpose
-
-The purpose of this project is to explore how different image filtering techniques can enhance the quality of images in the MNIST dataset, making them more suitable for classification. It evaluates the impact of these filters on image classification accuracy using a CNN.
+## With Noise
+To analyze the performance of the filters better, I added the following types of noise and calculated the 
 
 ## Features
 
